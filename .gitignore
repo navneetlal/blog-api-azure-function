@@ -6,6 +6,7 @@ local.settings.json
 
 # Azure storage local emulator file
 __azurite*.json
+__blobstorage__
 
 # User-specific files
 *.suo
