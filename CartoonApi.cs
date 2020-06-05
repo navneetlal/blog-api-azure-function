@@ -27,7 +27,7 @@ namespace cartoons
 
             string responseMessage = string.IsNullOrEmpty(name)
                 ? "This HTTP triggered function executed successfully. Function was uploaded using git. Pass a name in the query string or in the request body for a personalized response."
-                : $"Hello, {name}. This HTTP triggered function executed successfully.";
+                : $"Hello, {name}. This HTTP triggered function executed successfully. uploaded using git";
 
             return new OkObjectResult(responseMessage);
         }
